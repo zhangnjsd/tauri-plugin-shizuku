@@ -15,9 +15,8 @@ Current capabilities:
 
 Rust side:
 
-```toml
-[dependencies]
-tauri-plugin-shizuku = { path = "../tauri-plugin-shizuku" }
+```bash
+cargo add tauri-plugin-shizuku
 ```
 
 JS side:
