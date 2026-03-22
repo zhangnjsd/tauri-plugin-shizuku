@@ -2,9 +2,11 @@
 name = "tauri-plugin-shizuku"
 version = "0.1.1"
 authors = [ "ShizukuAqua" ]
-description = ""
+description = "A tauri plugin for Shizuku, providing various permissions and functionalities to interact with the Android system."
 edition = "2024"
 rust-version = "1.93.0"
+license = "MIT"
+documentation = "https://docs.rs/tauri-plugin-shizuku"
 exclude = ["/examples", "/dist-js", "/guest-js", "/node_modules"]
 links = "tauri-plugin-shizuku"
 
