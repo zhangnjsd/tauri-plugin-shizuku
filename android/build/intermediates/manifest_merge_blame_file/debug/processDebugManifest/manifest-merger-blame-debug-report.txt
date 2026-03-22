@@ -1,0 +1,25 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.tauri.shizuku" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <application>
+7-->C:\Users\ASUS\Documents\Rust_start\tauri-plugin-shizuku\android\src\main\AndroidManifest.xml:3:3-11:17
+8        <provider
+8-->C:\Users\ASUS\Documents\Rust_start\tauri-plugin-shizuku\android\src\main\AndroidManifest.xml:4:5-10:76
+9            android:name="rikka.shizuku.ShizukuProvider"
+9-->C:\Users\ASUS\Documents\Rust_start\tauri-plugin-shizuku\android\src\main\AndroidManifest.xml:5:7-51
+10            android:authorities="${applicationId}.shizuku"
+10-->C:\Users\ASUS\Documents\Rust_start\tauri-plugin-shizuku\android\src\main\AndroidManifest.xml:6:7-53
+11            android:enabled="true"
+11-->C:\Users\ASUS\Documents\Rust_start\tauri-plugin-shizuku\android\src\main\AndroidManifest.xml:8:7-29
+12            android:exported="true"
+12-->C:\Users\ASUS\Documents\Rust_start\tauri-plugin-shizuku\android\src\main\AndroidManifest.xml:9:7-30
+13            android:multiprocess="false"
+13-->C:\Users\ASUS\Documents\Rust_start\tauri-plugin-shizuku\android\src\main\AndroidManifest.xml:7:7-35
+14            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
+14-->C:\Users\ASUS\Documents\Rust_start\tauri-plugin-shizuku\android\src\main\AndroidManifest.xml:10:7-73
+15    </application>
+16
+17</manifest>

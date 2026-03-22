@@ -1,0 +1,11 @@
+[default]
+description = "Default permissions for the plugin"
+permissions = [
+	"allow-ping",
+	"allow-get-status",
+	"allow-request-permission",
+	"allow-open-shizuku",
+	"allow-run-adb-command",
+	"allow-get-system-property",
+	"allow-list-packages",
+]

@@ -1,0 +1,13 @@
+# Automatically generated - DO NOT EDIT!
+
+"$schema" = "../../schemas/schema.json"
+
+[[permission]]
+identifier = "allow-open-shizuku"
+description = "Enables the open_shizuku command without any pre-configured scope."
+commands.allow = ["open_shizuku"]
+
+[[permission]]
+identifier = "deny-open-shizuku"
+description = "Denies the open_shizuku command without any pre-configured scope."
+commands.deny = ["open_shizuku"]

@@ -1,0 +1,3 @@
+-keep class app.tauri.shizuku.** { *; }
+-keep class rikka.shizuku.** { *; }
+-dontwarn rikka.shizuku.**
