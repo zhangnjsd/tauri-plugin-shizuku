@@ -1,7 +1,7 @@
 {
   "name": "tauri-plugin-shizuku-api",
-  "version": "0.1.0",
-  "author": "You",
+  "version": "0.1.1",
+  "author": "ShizukuAqua",
   "description": "",
   "type": "module",
   "types": "./dist-js/index.d.ts",
