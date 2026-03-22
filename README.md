@@ -31,10 +31,10 @@ Register plugin:
 ```rust
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
-	tauri::Builder::default()
-		.plugin(tauri_plugin_shizuku::init())
-		.run(tauri::generate_context!())
-		.expect("error while running tauri application");
+    tauri::Builder::default()
+        .plugin(tauri_plugin_shizuku::init())
+        .run(tauri::generate_context!())
+        .expect("error while running tauri application");
 }
 ```
 
@@ -48,8 +48,8 @@ use tauri_plugin_shizuku::ShizukuExt;
 let status = app.shizuku().get_status()?;
 let _ = app.shizuku().request_permission(Default::default())?;
 let cmd = app.shizuku().run_adb_command(tauri_plugin_shizuku::RunAdbCommandRequest {
-	command: "id".to_string(),
-	timeout_ms: Some(15_000),
+    command: "id".to_string(),
+    timeout_ms: Some(15_000),
 })?;
 ```
 
@@ -59,18 +59,18 @@ No extra manifest edits are required by plugin users. The Android provider and n
 
 ```ts
 import {
-	getStatus,
-	requestPermission,
-	openShizuku,
-	runAdbCommand,
-	getSystemProperty,
-	listPackages,
+    getStatus,
+    requestPermission,
+    openShizuku,
+    runAdbCommand,
+    getSystemProperty,
+    listPackages,
 } from 'tauri-plugin-shizuku-api'
 
 const status = await getStatus()
 if (!status.permissionGranted) {
-	await openShizuku()
-	await requestPermission()
+    await openShizuku()
+    await requestPermission()
 }
 
 const commandResult = await runAdbCommand({ command: 'id', timeoutMs: 15000 })
