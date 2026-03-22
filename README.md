@@ -23,7 +23,7 @@ tauri-plugin-shizuku = { path = "../tauri-plugin-shizuku" }
 JS side:
 
 ```bash
-pnpm add tauri-plugin-shizuku-api
+bun tauri add tauri-plugin-shizuku-api
 ```
 
 Register plugin:
@@ -92,8 +92,7 @@ Run steps:
 
 ```bash
 cd examples/tauri-app
-pnpm install
-pnpm tauri android dev
+bun tauri android dev
 ```
 
 In app:
