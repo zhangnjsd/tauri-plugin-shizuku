@@ -23,7 +23,7 @@ tauri-plugin-shizuku = { path = "../tauri-plugin-shizuku" }
 JS side:
 
 ```bash
-bun tauri add tauri-plugin-shizuku-api
+bun tauri add shizuku
 ```
 
 Register plugin:
